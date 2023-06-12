@@ -52,8 +52,12 @@ class signinFragment : Fragment() {
 
             if(!email.isEmpty()&&!pass.isEmpty()){
 
+                //progress bar
+                binding.progressBar.visibility=View.VISIBLE
+
                     auth.signInWithEmailAndPassword(email,pass).addOnCompleteListener{
                         if(it.isSuccessful){
+
                             Toast.makeText(context,"login successfully", Toast.LENGTH_SHORT).show()
                             navcontrol.navigate(R.id.action_signinFragment_to_homeFragment2)
 
@@ -61,8 +65,12 @@ class signinFragment : Fragment() {
                             Toast.makeText(context,it.exception?.message, Toast.LENGTH_SHORT).show()
 
                         }
+                        binding.progressBar.visibility=View.GONE
                     }
 
+            }
+            else{
+                Toast.makeText(context,"empty fields not allowed",Toast.LENGTH_SHORT).show()
             }
         }
     }

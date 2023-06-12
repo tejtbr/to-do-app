@@ -5,6 +5,8 @@
       <map>
         <entry key="..\:/Users/tejas/AndroidStudioProjects/examples-master/examples-master/lite/examples/object_detection/android_play_services/todo2/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1105" />
         <entry key="..\:/Users/tejas/AndroidStudioProjects/examples-master/examples-master/lite/examples/object_detection/android_play_services/todo2/app/src/main/res/layout/activity_main.xml" value="0.2604166666666667" />
+        <entry key="..\:/Users/tejas/AndroidStudioProjects/examples-master/examples-master/lite/examples/object_detection/android_play_services/todo2/app/src/main/res/layout/each_todo_item.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/tejas/AndroidStudioProjects/examples-master/examples-master/lite/examples/object_detection/android_play_services/todo2/app/src/main/res/layout/fragment_addtodo.xml" value="0.2604166666666667" />
         <entry key="..\:/Users/tejas/AndroidStudioProjects/examples-master/examples-master/lite/examples/object_detection/android_play_services/todo2/app/src/main/res/layout/fragment_home.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/tejas/AndroidStudioProjects/examples-master/examples-master/lite/examples/object_detection/android_play_services/todo2/app/src/main/res/layout/fragment_signin.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/tejas/AndroidStudioProjects/examples-master/examples-master/lite/examples/object_detection/android_play_services/todo2/app/src/main/res/layout/fragment_signup.xml" value="0.27447916666666666" />
